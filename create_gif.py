@@ -1,8 +1,8 @@
 import os
 import imageio.v3 as iio
-filenames = [r'C:\Users\Shyam KC\OneDrive\Desktop\Projects\nyan-cat1.png',
-             r'C:\Users\Shyam KC\OneDrive\Desktop\Projects\nyan-cat2.png',
-             r'C:\Users\Shyam KC\OneDrive\Desktop\Projects\nyan-cat3.png']
+filenames = [r'Your_file _path\nyan-cat1.png', 
+             r'Your_file_path\nyan-cat2.png',
+             r'Your_file path\nyan-cat3.png']  # add your file path
 images = []
 for filename in filenames:
     images.append(iio.imread(filename))
